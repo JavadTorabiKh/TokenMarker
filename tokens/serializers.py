@@ -5,7 +5,7 @@ from .models import User, Token
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'name', 'last_name']
+        fields = ['id', 'name', 'last_name', 'pblicKey']
 
 
 class TokenSerializer(serializers.ModelSerializer):
@@ -13,4 +13,4 @@ class TokenSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Token
-        fields = ['id', 'user', 'address', 'token_type']
+        fields = ['id', 'user', 'address', 'token_type', 'count']

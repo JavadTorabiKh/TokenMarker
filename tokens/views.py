@@ -33,3 +33,20 @@ class UserDetail(generics.RetrieveUpdateDestroyAPIView):
 
     queryset = User.objects.all()
     serializer_class = UserSerializer
+
+
+class TokenList(generics.ListCreateAPIView):
+
+    queryset = Token.objects.all()
+    serializer_class = TokenSerializer
+    pagination_class = PaginationSize
+
+    # authentication
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [IsAuthenticated]
+
+
+class TokenDetail(generics.RetrieveDestroyAPIView):
+
+    queryset = Token.objects.all()
+    serializer_class = TokenSerializer
