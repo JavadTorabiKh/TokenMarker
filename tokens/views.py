@@ -1,3 +1,4 @@
+import requests
 from rest_framework import status
 from .models import Token, User
 from rest_framework.response import Response
@@ -41,9 +42,17 @@ class TokenList(generics.ListCreateAPIView):
     serializer_class = TokenSerializer
     pagination_class = PaginationSize
 
-    # authentication
-    # authentication_classes = [JWTAuthentication]
-    # permission_classes = [IsAuthenticated]
+
+@api_view(["GET"])
+def create_token(request: Request):
+    res = requests.get("http://localhost:5000/")
+    data = res.json()
+
+    token_serializer = TokenSerializer(data=data["result"], many=True)
+    if token_serializer.is_valid():
+        token_serializer.save()
+        return Response({"status": "success", "data": token_serializer.data}, status.HTTP_201_CREATED)
+    return Response({"status": "erorrs"}, status.HTTP_400_BAD_REQUEST)
 
 
 class TokenDetail(generics.RetrieveDestroyAPIView):
