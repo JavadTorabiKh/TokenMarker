@@ -8,14 +8,6 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'last_name', 'pblicKey']
 
 
-# class TokenSerializer(serializers.ModelSerializer):
-#     user = UserSerializer()
-
-#     class Meta:
-#         model = Token
-#         fields = ['id', 'user', 'address', 'token_type', 'count']
-
-
 class TokenSerializer(serializers.ModelSerializer):
     user = UserSerializer()
 
