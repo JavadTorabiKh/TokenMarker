@@ -1,4 +1,6 @@
-pro/
+Service1/pro/
+Service2/pro/
+
 # Created by https://www.toptal.com/developers/gitignore/api/django
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
