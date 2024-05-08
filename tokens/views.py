@@ -48,7 +48,7 @@ def create_token(request: Request):
     res = requests.get("http://localhost:5000/")
     data = res.json()
 
-    token_serializer = TokenSerializer(data=data["result"], many=True)
+    token_serializer = TokenSerializer(data=data["result"])
     if token_serializer.is_valid():
         token_serializer.save()
         return Response({"status": "success", "data": token_serializer.data}, status.HTTP_201_CREATED)
