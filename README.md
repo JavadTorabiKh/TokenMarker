@@ -45,3 +45,14 @@ pip install -r requirements.txt
 cd blockchainService
 pip install -r requirements.txt
 ```
+
+
+### 3️⃣ Set Up Environment Variables
+- Create a .env file inside the django-api/ directory and add the following:
+
+```env
+SECRET_KEY=your_secret_key
+WEB3_PROVIDER_URL=https://your-ethereum-node-url
+CONTRACT_ADDRESS=your_contract_address
+PRIVATE_KEY=your_wallet_private_key
+```
