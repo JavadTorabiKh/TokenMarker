@@ -107,17 +107,6 @@ erc20-django-api/
 │── docker-compose.yml # Docker setup for running services
 ```
 
----
-
-## 📜 Project Structure
-
-```bah
-erc20-django-api/
-│── django-api/        # Django-based API logic
-│── blockchain/        # Solidity and JavaScript scripts for deploying the smart contract
-│── README.md          # Project documentation
-│── docker-compose.yml # Docker setup for running services
-```
 --- 
 
 ## 🤝 Contributing
