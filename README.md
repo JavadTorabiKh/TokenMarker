@@ -80,6 +80,17 @@ After execution, the deployed contract address will be displayed. Make sure to u
 ---
 
 
+## 🔗 API Endpoints
+
+| Method | Endpoint           | Description                          |
+|--------|--------------------|--------------------------------------|
+| `POST` | `/deploy/`         | Deploy an ERC-20 contract           |
+| `GET`  | `/balance/<address>/` | Get token balance for a given address |
+| `POST` | `/transfer/`       | Transfer tokens to another address  |
+
+
+To test the API, you can use Postman or curl:
+
 ```bash
 curl -X GET http://127.0.0.1:8000/balance/0xYourWalletAddress/
 ```
