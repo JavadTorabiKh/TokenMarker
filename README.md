@@ -30,3 +30,18 @@ Before running the project, make sure you have the following installed:
 ```bash
 git clone https://github.com/your-repo/erc20-django-api.git
 cd erc20-django-api
+```
+
+### 2️⃣ Install Dependencies
+- **Install Django Dependencies
+
+```bash
+cd djangoApiService
+pip install -r requirements.txt
+```
+- **Install Blockchain Dependencies
+
+```bash
+cd blockchainService
+pip install -r requirements.txt
+```
