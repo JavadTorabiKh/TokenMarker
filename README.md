@@ -57,6 +57,9 @@ CONTRACT_ADDRESS=your_contract_address
 PRIVATE_KEY=your_wallet_private_key
 ```
 
+---
+
+
 ## 🚀 Running the Project
 ### ▶ Start the Django API Server
 
@@ -74,7 +77,7 @@ node deploy.js
 
 After execution, the deployed contract address will be displayed. Make sure to update your .env file with the deployed contract address.
 
-
+---
 
 
 ```bash
@@ -88,4 +91,44 @@ erc20-django-api/
 │── blockchain/        # Solidity and JavaScript scripts for deploying the smart contract
 │── README.md          # Project documentation
 │── docker-compose.yml # Docker setup for running services
+```
+
+---
+
+## 📜 Project Structure
+
+```bah
+erc20-django-api/
+│── django-api/        # Django-based API logic
+│── blockchain/        # Solidity and JavaScript scripts for deploying the smart contract
+│── README.md          # Project documentation
+│── docker-compose.yml # Docker setup for running services
+```
+--- 
+
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository 🍴
+2. Create a new branch (git checkout -b feature-xyz)
+3. Commit your changes (git commit -m "Add new feature")
+4. Submit a Pull Request ✅
+
+--- 
+
+## 📌 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🚀 Ready to deploy on Ethereum! Happy coding! 🎯🔥
+
+```yaml
+---
+
+### ✨ Features of this `README.md`:
+✔ **Professional structure** with clear sections  
+✔ **Prerequisites, installation, and API documentation**  
+✔ **Formatted tables for API endpoints**  
+✔ **Contribution and licensing details**  
+
+💡 **Let me know if you need any modifications or improvements!** 🚀
 ```
