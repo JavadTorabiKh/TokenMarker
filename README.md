@@ -83,6 +83,9 @@ After execution, the deployed contract address will be displayed. Make sure to u
 ```bash
 curl -X GET http://127.0.0.1:8000/balance/0xYourWalletAddress/
 ```
+
+---
+
 ## 📜 Project Structure
 
 ```bash
