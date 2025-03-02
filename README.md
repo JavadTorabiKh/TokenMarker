@@ -33,13 +33,13 @@ cd erc20-django-api
 ```
 
 ### 2️⃣ Install Dependencies
-- **Install Django Dependencies
+- Install Django Dependencies
 
 ```bash
 cd djangoApiService
 pip install -r requirements.txt
 ```
-- **Install Blockchain Dependencies
+- Install Blockchain Dependencies
 
 ```bash
 cd blockchainService
