@@ -56,3 +56,36 @@ WEB3_PROVIDER_URL=https://your-ethereum-node-url
 CONTRACT_ADDRESS=your_contract_address
 PRIVATE_KEY=your_wallet_private_key
 ```
+
+## 🚀 Running the Project
+### ▶ Start the Django API Server
+
+```bash
+cd django-api
+python manage.py runserver
+```
+
+### ▶ Deploy the ERC-20 Smart Contract
+
+```bash
+cd blockchain
+node deploy.js
+```
+
+After execution, the deployed contract address will be displayed. Make sure to update your .env file with the deployed contract address.
+
+
+
+
+```bash
+curl -X GET http://127.0.0.1:8000/balance/0xYourWalletAddress/
+```
+## 📜 Project Structure
+
+```bash
+erc20-django-api/
+│── django-api/        # Django-based API logic
+│── blockchain/        # Solidity and JavaScript scripts for deploying the smart contract
+│── README.md          # Project documentation
+│── docker-compose.yml # Docker setup for running services
+```
