@@ -46,4 +46,19 @@ Before getting started, ensure you have the following installed:
     python manage.py runserver
     ```
 
+Usage
+Navigate to http://127.0.0.1:8000.
+Use the user interface to interact with tokens and smart contracts.
+Contributing
+If you would like to contribute to this project, please follow these steps:
+
+Create a fork of the repository.
+Make your changes and submit a pull request.
+License
+This project is licensed under the MIT License. Please see the LICENSE file for details.
+
+Contact Us
+For questions or support, please reach out to us:
+
+Email: j.2528840@gmail.com
 
