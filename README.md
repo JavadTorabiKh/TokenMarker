@@ -28,7 +28,7 @@ Before running the project, make sure you have the following installed:
 ## 🚀 **Installation and Setup**
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/erc20-django-api.git
+git clone https://github.com/JavadTorabiKh/Token_marker_web3Service.git
 cd erc20-django-api
 ```
 
