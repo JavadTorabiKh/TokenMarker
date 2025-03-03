@@ -52,12 +52,14 @@ Use the user interface to interact with tokens and smart contracts.
 Contributing
 If you would like to contribute to this project, please follow these steps:
 
-Create a fork of the repository.
+## Create a fork of the repository.
 Make your changes and submit a pull request.
-License
+
+## License
 This project is licensed under the MIT License. Please see the LICENSE file for details.
 
-Contact Us
+## Contact Us
+
 For questions or support, please reach out to us:
 
 Email: j.2528840@gmail.com
