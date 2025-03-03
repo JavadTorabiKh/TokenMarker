@@ -124,14 +124,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 🚀 Ready to deploy on Ethereum! Happy coding! 🎯🔥
 
-```yaml
----
-
-### ✨ Features of this `README.md`:
-✔ **Professional structure** with clear sections  
-✔ **Prerequisites, installation, and API documentation**  
-✔ **Formatted tables for API endpoints**  
-✔ **Contribution and licensing details**  
-
-💡 **Let me know if you need any modifications or improvements!** 🚀
-```
