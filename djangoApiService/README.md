@@ -47,7 +47,7 @@ Before getting started, ensure you have the following installed:
     ```
 
 ## Usage
-Navigate to http://127.0.0.1:8000.
+Navigate to http://127.0.0.1:5000.
 Use the user interface to interact with tokens and smart contracts.
 
 ## Contributing
