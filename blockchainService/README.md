@@ -18,4 +18,7 @@ With this service, you can:
    git clone https://github.com/yourusername/your-repo.git
    cd your-repo
     ```
-2. 
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
