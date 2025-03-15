@@ -15,10 +15,44 @@ With this service, you can:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/JavadTorabiKh/TokenMarker.git
    cd your-repo
     ```
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
+3. Set up environment variables: Create a .env file and add your settings:
+    ```env
+    INFURA_PROJECT_ID=your_infura_project_id
+    PRIVATE_KEY=your_private_key
+    ```
+
+---
+
+### Usage
+- Deploy a Smart Contract: Run the following command:
+
+    ```bash
+    python deploy.py
+    ```
+
+- Interact with your Contract: Use the following code snippet:
+    ```javascript
+    const contract = new web3.eth.Contract(abi, contractAddress);
+    const result = await contract.methods.yourMethod().call();
+    console.log(result);
+    ```
+
+---
+
+### Testing
+- Run tests to ensure everything is working:
+
+    ```bash
+    pytest
+    ```
+
+---
+
+
