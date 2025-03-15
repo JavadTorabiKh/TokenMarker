@@ -19,7 +19,7 @@ Before running the project, make sure you have the following installed:
 - **Python 3.8+** (for Django backend)
 - **Node.js** (for interacting with the blockchain)
 - **Solidity Compiler (`solc`)**
-- **Web3.py** (for smart contract interaction)
+- **tronpy** (for smart contract interaction)
 - **Docker** (optional, for running services in containers)
 - **Metamask** or any Tron-compatible wallet
 

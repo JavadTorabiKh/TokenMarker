@@ -37,12 +37,6 @@ With this service, you can:
     python deploy.py
     ```
 
-- Interact with your Contract: Use the following code snippet:
-    ```javascript
-    const contract = new web3.eth.Contract(abi, contractAddress);
-    const result = await contract.methods.yourMethod().call();
-    console.log(result);
-    ```
 
 ---
 

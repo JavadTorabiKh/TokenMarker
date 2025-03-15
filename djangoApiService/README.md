@@ -14,7 +14,7 @@ Before getting started, ensure you have the following installed:
 
 - Python 3.x
 - Django
-- Web3.py
+- tronpy
 - Other dependencies (listed in `requirements.txt`)
 
 ## Installation and Setup

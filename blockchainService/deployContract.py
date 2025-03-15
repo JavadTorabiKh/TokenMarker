@@ -1,6 +1,5 @@
 from flask import Flask
 from tronpy import Tron, Contract
-from tronpy import Tron
 from tronpy.keys import PrivateKey
 from config import privateKey, address, network
 
