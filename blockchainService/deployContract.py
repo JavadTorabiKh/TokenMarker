@@ -48,7 +48,7 @@ def process():
             "pblicKey": "1"
         },
         "address": str(result['contract_address']),
-        "token_type": "ERC20",
+        "token_type": "TRC20",
         "count": 1000000
     }
 
