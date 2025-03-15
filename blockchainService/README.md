@@ -55,4 +55,14 @@ With this service, you can:
 
 ---
 
+### Contributing
+We welcome contributions! Please fork the repo, make your changes, and submit a pull request.
 
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+Ready to dive into the world of smart contracts? Let's get started!
