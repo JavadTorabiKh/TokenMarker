@@ -2,9 +2,10 @@ from flask import Flask
 from tronpy import Tron, Contract
 from tronpy import Tron
 from tronpy.keys import PrivateKey
+from config import privateKey, address, network
 
 app = Flask(__name__)
-client = Tron(network="nile")
+client = Tron(network=network)
 
 
 @app.route('/', methods=['GET'])
@@ -16,10 +17,9 @@ def process_data():
 
 
 def process():
-    from_addr = "TEUcV3TJTwpy5fjdLwfNXqSc4L1jM31gvi"
+    from_addr = address
 
-    priv_key = PrivateKey(bytes.fromhex(
-        "2269ac5ea72cb290aea4de4faa99bc1fa57e1bdcf6e3f4e7120add5edfc26ad2"))
+    priv_key = PrivateKey(bytes.fromhex(privateKey))
 
     bytecode = "608060405234801561001057600080fd5b5060c78061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b11460375780636d4ce63c146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea2646970667358221220c8daade51f673e96205b4a991ab6b94af82edea0f4b57be087ab123f03fc40f264736f6c63430006000033"
     abi = [

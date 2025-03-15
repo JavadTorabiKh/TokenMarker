@@ -1,0 +1,3 @@
+privateKey = ""
+address = ""
+network = "nile"

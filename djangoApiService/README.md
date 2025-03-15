@@ -1,10 +1,10 @@
-# Django Project for Ethereum Blockchain Service Integration
+# Django Project for Tron Blockchain Service Integration
 
-This project is a Django application that allows you to connect with an external service to place tokens on the Ethereum blockchain and interact with smart contracts.
+This project is a Django application that allows you to connect with an external service to place tokens on the Tron blockchain and interact with smart contracts.
 
 ## Features
 
-- **Ethereum Network Connection**: This application enables you to interact with ERC-20 tokens and smart contracts seamlessly.
+- **Tron Network Connection**: This application enables you to interact with ERC-20 tokens and smart contracts seamlessly.
 - **User-Friendly Experience**: With an intuitive user interface, you can easily manage tokens and interact with contracts.
 - **High Security**: Data is securely stored on the blockchain, utilizing advanced encryption techniques.
 
@@ -34,7 +34,7 @@ Before getting started, ensure you have the following installed:
 
 3. Configure the project settings:
 
-- Open the settings.py file and set the variables related to connecting to the Ethereum network.
+- Open the settings.py file and set the variables related to connecting to the Tron network.
 
 4. Migrate the database:
     ```bash

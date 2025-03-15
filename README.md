@@ -8,7 +8,7 @@
 
 ## 📌 **About the Project**
 This project consists of two main services:
-1. **Blockchain Service**: Deploy an **ERC-20 smart contract** on the Ethereum blockchain.
+1. **Blockchain Service**: Deploy an **ERC-20 smart contract** on the Tron blockchain.
 2. **Django API Service**: Interact with the **deployed smart contract** through a Django-based REST API.
 
 ---
@@ -21,7 +21,7 @@ Before running the project, make sure you have the following installed:
 - **Solidity Compiler (`solc`)**
 - **Web3.py** (for smart contract interaction)
 - **Docker** (optional, for running services in containers)
-- **Metamask** or any Ethereum-compatible wallet
+- **Metamask** or any Tron-compatible wallet
 
 ---
 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ```env
 SECRET_KEY=your_secret_key
-WEB3_PROVIDER_URL=https://your-ethereum-node-url
+WEB3_PROVIDER_URL=https://your-tron-node-url
 CONTRACT_ADDRESS=your_contract_address
 PRIVATE_KEY=your_wallet_private_key
 ```
@@ -122,5 +122,5 @@ Contributions are welcome! To contribute:
 ## 📌 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🚀 Ready to deploy on Ethereum! Happy coding! 🎯🔥
+🚀 Ready to deploy on Tron! Happy coding! 🎯🔥
 
