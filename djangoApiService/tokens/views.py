@@ -16,7 +16,7 @@ from rest_framework.permissions import IsAuthenticated
 
 
 class PaginationSize(PageNumberPagination):
-    page_size = 3
+    page_size = 4
 
 
 class UserList(generics.ListCreateAPIView):
